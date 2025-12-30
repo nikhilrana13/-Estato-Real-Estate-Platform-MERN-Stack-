@@ -1,7 +1,7 @@
 import cloudinary from "../Config/cloudinary.js";
 import { UserMapper } from "../Mappers/UserMapper.js";
 import UserModel from "../Models/UserModel.js";
-import { SendOtptoEmail } from "../utils/EmailService.js";
+import { SendOtptoEmail } from "../utils/emailService.js";
 import { Response } from "../utils/Responsehandler.js";
 import jwt from "jsonwebtoken"
 

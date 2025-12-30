@@ -3,8 +3,8 @@ import PropertyModel from "../Models/PropertyModel.js";
 import UserModel from "../Models/UserModel.js";
 import sharp from "sharp";
 import { Response } from "../utils/Responsehandler.js";
-import Lead from "../Models/LeadModel.js";
-import { sendSellerDetailToViewer } from "../utils/EmailService.js";
+import Lead from "../Models/leadModel.js";
+import { sendSellerDetailToViewer } from "../utils/emailService.js";
 
 export const AddProperty = async (req, res) => {
   try {
